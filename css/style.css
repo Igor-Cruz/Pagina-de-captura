@@ -31,5 +31,54 @@ header{
 }
 
 section{
+    padding: 20px;
+    background-image: url("../images/people.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: rgb(197, 197, 197);
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select, button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+select{
+/* Trocando a seta do select */
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("../images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+button{
     color: white;
+    background-color: turquoise;
+    font-weight: bold;
+}
+
+button:hover{
+    color: turquoise;
+    background-color: white;
 }
